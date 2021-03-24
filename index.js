@@ -19,4 +19,5 @@ else if{
 }
 else{
   document.querySelector("h1").innerHTML = "Click the Button";
+}
 document.querySelector("button").onclick = () => location.reload();
