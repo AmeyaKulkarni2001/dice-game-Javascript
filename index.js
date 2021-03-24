@@ -14,10 +14,7 @@ if(randomNumber1 > randomNumber2){
 else if(randomNumber1 < randomNumber2){
   document.querySelector("h1").innerHTML = "Player 2 Wins";
 }
-else if{
-  document.querySelector("h1").innerHTML = "Its a Draw";
-}
 else{
-  document.querySelector("h1").innerHTML = "Click the Button";
+  document.querySelector("h1").innerHTML = "Its a Draw";
 }
 document.querySelector("button").onclick = () => location.reload();
